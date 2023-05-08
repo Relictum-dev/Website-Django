@@ -7,3 +7,12 @@ def index(request):
 
 def about(request):
     return render(request, 'main/about.html')
+
+def skills(request):
+    return render(request, 'main/skills.html')
+
+def works(request):
+    return render(request, 'main/works.html')
+
+def contacts(request):
+    return render(request, 'main/contacts.html')
