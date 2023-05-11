@@ -61,9 +61,253 @@ body {
 
 }
 
+.language-icons h2 {
+    font-size: 72px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 145px;
+}
+
+.softskills h2{
+    display: inline-flex;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-weight: 600;
+    animation: slideTop 1s ease forwards;
+    
+}
+
+.hardskills h2{
+    display: inline-flex;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    font-weight: 600;
+    animation: slideBottom 1s ease forwards;
+
+}
+
+.linehard {
+	width: 1150px;
+	height: 2px;
+	background: #0ef;
+    position: absolute;
+    top: 46.5%;
+    left: 10%;
+    animation: light 1s ease forwards;
+}
+
+.linehard1 {
+    width: 80px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    rotate: 90deg;
+    top: 40.7%;
+    left: 25%;
+    animation: light 1s ease forwards;
+}
+
+.linehard2 {
+    width: 185px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    top: 35%;
+    left: 27.8%;
+    animation: light 1s ease forwards;
+}
+
+.linehard3 {
+    width: 80px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    rotate: 90deg;
+    top: 40.7%;
+    left: 45%;
+    animation: light 1s ease forwards;
+}
+
+.linehard4 {
+    width: 360px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    top: 35%;
+    left: 47.8%;
+    animation: light 1s ease forwards;
+}
+
+.linehard5 {
+    width: 140px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    top: 36.3%;
+    left: 72%;
+    rotate: 90deg;
+    animation: light 1s ease forwards;
+}
+
+.linehard6 {
+    width: 185px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    top: 26.2%;
+    left: 76.9%;
+    animation: light 1s ease forwards;
+}
+.linesoft {
+    width: 80px;
+    height: 2px;
+    rotate: 90deg;
+    background: #0ef;
+    position: absolute;
+    top: 52.3%;
+    left: 27.8%;
+    animation: light 1s ease forwards;
+}
+
+.linesoft1 {
+    width: 230px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    top: 58.3%;
+    left: 30.53%;
+    animation: light 1s ease forwards;
+}
+
+.linesoft2 {
+    width: 80px;
+    height: 2px;
+    rotate: 90deg;
+    background: #0ef;
+    position: absolute;
+    top: 52.3%;
+    left: 47.8%;
+    animation: light 1s ease forwards;
+}
+
+.linesoft3 {
+    width: 335px;
+    height: 2px;
+    background: #0ef;
+    position: absolute;
+    top: 58.2%;
+    left: 50.53%;
+    animation: light 1s ease forwards;
+}
 
 
+.clearcode h2{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 29%;
+    left: 29.3%;
+    animation: slideBottom 1s ease forwards;
+}
 
+.comm h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 60%;
+    left: 31.5%;
+    animation: slideTop 1s ease forwards;
+}
+
+.OOP h2{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 37%;
+    left: 29%;
+    animation: slideLeft 1s ease forwards;
+
+}
+
+.perseverance h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 52%;
+    left: 31.5%;
+    animation: slideLeft 1s ease forwards;
+}
+
+.frameworks h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 29%;
+    left: 49%;
+    animation: slideBottom 1s ease forwards;
+}
+
+.django h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 37%;
+    left: 49%;
+    animation: slideLeft 1s ease forwards;
+}
+
+.pyqt h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 37%;
+    left: 58%;
+    animation: slideLeft 1s ease forwards;
+}
+
+.aiogram h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 37%;
+    left: 65%;
+    animation: slideLeft 1s ease forwards;
+}
+
+.independence h2{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 52%;
+    left: 51.5%;
+    animation: slideLeft 1s ease forwards;
+}
+
+.development h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 420;
+    top: 60%;
+    left: 51.5%;
+    animation: slideTop 1s ease forwards;
+}
 
 /* ANIMATIONS */
 @keyframes slideRight {
@@ -95,13 +339,13 @@ body {
 }
 @keyframes slideBottom {
     0% {
-        transform: translateY(100px);
+        transform: translateY(-100px);
         opacity: 0;
 
     }
 
     100% {
-        transform: translateY(0);
+        transform: translateY(100);
         opacity: 1;
         
     }
@@ -116,6 +360,16 @@ body {
     100% {
         transform: translateX(0);
         opacity: 1;
-        
+    }}
+
+@keyframes light {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(100);
+        opacity: 1;
     }
 }

@@ -52,67 +52,122 @@ body {
     color: #0ef;
 }
 
-img {
-    border-radius: 50%;
-    float: left;
+.square {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
     position: absolute;
-    left: 82px;
-    top: 170px;
-    border: 2px solid darkblue;
-    color: #0ef;
-    box-shadow: 0 0 20px;
-    animation: slideRight 1s ease forwards;
+    top: 20%;
+    left: 10%;
 }
 
-
-.text-about h1{
-    font-size: 48px;
-    font-weight: 600;
-    color: white;
-    position: absolute;
-    left: 450px;
-    top: 160px;
-    animation: slideRight 1s ease forwards;
+.img1 {
+    width: 216px;
+    height: 116px;
 }
 
-.text-about p{
-    font-size: 36px;
-    font-weight: 600;
-    color: white;
+.img2 {
+    width: 216px;
+    height: 116px;
+}
+.square1 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
     position: absolute;
-    left: 450px;
-    top: 240px;
-    max-width: 800px;
-    animation: slideLeft 1s ease forwards;
-
+    top: 20%;
+    left: 32%;
 }
 
-.text-about h3 {
-    font-size: 18px;
-    font-weight: 450;
-    color: white;
+.square2 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
     position: absolute;
-    top: 470px;
-    left: 95px;
-    text-align: center;
-    line-height: 1.5;
-    animation: slideRight 1s ease forwards;
+    top: 20%;
+    left: 53%;
 }
 
-.text-about h2 {
-    font-size: 18px;
-    font-weight: 400;
-    color: white;
+.square3 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
     position: absolute;
-    top: 400px;
-    left: 450px;
-    max-width: 718px;
-    text-align: justify;
-    line-height: 1.3;
-    animation: slideTop 1s ease forwards;
-
+    top: 20%;
+    left: 75%;
 }
 
+.square4 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.square5 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+}
+
+.square6 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+}
+
+.square7 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+.square8 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+
+.square9 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 70%;
+    left: 53%;
+}
+
+.square10 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+}
+
+.square11 {
+    width: 220px;
+    height: 120px;
+    border: 2px solid white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
 
 
 /* ANIMATIONS */
