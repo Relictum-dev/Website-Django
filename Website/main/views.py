@@ -16,3 +16,16 @@ def works(request):
 
 def contacts(request):
     return render(request, 'main/contacts.html')
+
+def contact_me(request):
+    context = {}
+    if request.method == 'POST':
+        pass
+    else:
+        form = ContactForm()
+        context['form'] = form
+        return render (
+            request,
+            'contacts.html',
+            context=context
+        )
