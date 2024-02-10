@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
 
 body {
     background: #1f242d;
@@ -51,19 +44,6 @@ body {
 
     color: #0ef;
 }
-
-img {
-    border-radius: 50%;
-    float: left;
-    position: absolute;
-    left: 82px;
-    top: 170px;
-    border: 2px solid darkblue;
-    color: #0ef;
-    box-shadow: 0 0 20px;
-    animation: slideRight 1s ease forwards;
-}
-
 
 .text-about h1{
     font-size: 48px;
@@ -113,7 +93,64 @@ img {
 
 }
 
+.collection-content h1{
+    font-family: Proxima Nova;
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    animation: slideRight 1s ease forwards;
+}
 
+.collection-content h2{
+    font-family: Museo Slab;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 180px;
+    animation: slideRight 1s ease forwards;
+}
+
+.collection-content h3{
+    font-family: Proxima Nova;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    animation: slideRight 1s ease forwards;
+}
+
+.rounded-button {
+    font-family: FF Kava;
+    position: absolute;
+    top: 470px;
+    left: 150px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    animation: slideRight 1s ease forwards;
+}
+
+.rounded-button:hover {
+    background-color: #2980b9;
+}
+
+.rounded-button img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px; /* Укажите желаемую ширину изображения */
+    height: auto;
+}
 
 /* ANIMATIONS */
 @keyframes slideRight {
